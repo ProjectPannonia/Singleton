@@ -1,5 +1,6 @@
 package com.company.implementations;
 
+// Best practice, when the singleton class not using a lot of resources!
 public class EagerInitialization {
     // One private instace
     private static final EagerInitialization eagerInitializedSingleton = new EagerInitialization();
