@@ -20,6 +20,8 @@ public class StaticBlockInitialization {
           throw new RuntimeException("Exception occured in creating singleton instance");
       }
   }
+
+  // Get the singleton object
   public static StaticBlockInitialization getInstance(){
       return instance;
   }
