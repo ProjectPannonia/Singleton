@@ -4,7 +4,7 @@ package com.company.implementations;
 * Creates the singleton in the global access method
 */
 public class LazyInitialization {
-    
+
     private static LazyInitialization instance;
 
     private LazyInitialization(){
