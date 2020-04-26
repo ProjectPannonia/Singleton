@@ -1,0 +1,15 @@
+package com.company.implementations;
+
+public class EagerInitialization {
+    // One private instace
+    private static final EagerInitialization eagerInitializedSingleton = new EagerInitialization();
+
+    // Private constructor, to avoid client applications to use constructor
+    private EagerInitialization() {
+    }
+
+    // Get the only one instance with a public get method
+    public static EagerInitialization getInstance(){
+        return eagerInitializedSingleton;
+    }
+}
